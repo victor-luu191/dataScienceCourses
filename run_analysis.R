@@ -30,8 +30,7 @@ first.ds <- cbind(mean.ds, std.ds)
 
 ## 3) Use descriptive act names instead of coded labels ====
 activity.names <- c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
-y.all$act <- laply(y.all, function(label) activity.names[label])
-first.ds$act <- y.all$act
+y.all$act <- sapply(y.all, function(label) activity.names[label])
 ## 4) Label the first data set with descriptive variable names (already done in step 2)====
 
 ## 5) Create tidy data set with avg of each variable  ====
