@@ -1,7 +1,6 @@
 # Codebook
 Raw data: UCI HAR dataset on Human Activity Recognition.
-Detailed description of raw data has already been provided together with the UCI dataset. Please refer to their description.
-Here, I only describe my tidy data set and summarize files I combined together to obtain it.
+Detailed description of raw data has already been provided together with the UCI dataset. Please refer to their description. Here, I only describe my tidy data set and summarize files I combined together to obtain it. This codebook can be used together with README.md to clarify processing steps.
 
 ## My tidy data set `tidy.ds`
 It contains mean and standard deviation measurements (aka variables) extracted from UCI HAR raw data set. Each record contains: a measurement name _x_, subject.id of the subject for which measurements were provided, values of the measurement _x_ for _six_ activities performed by the subject. A sample record in `tidy.ds` will be like this:
