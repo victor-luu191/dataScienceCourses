@@ -2,10 +2,12 @@
 # Getting and Cleaning Data's project
 The full script  can be found in run_analysis.R
 
-### TAsk 1. Merge train and test sets into a single data set (self-explained code)
+### Task 1. Merge train and test sets into a single data set (self-explained code)
 After loading raw train and test data sets and merging them together, we got feature data set `X.all` and label vector `y.all`
 
-### Task 2. Extract measurements of mean and standard deviations:
+### Task 2. Extract measurements of mean and standard deviations
+Following are the steps.
+
 1. Load `code.book` 
 2. Extract mean and standard measurements by first getting their indices from codebook by `grep()` then extracting corresponding columns
 
